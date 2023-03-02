@@ -1,0 +1,35 @@
+.main-footer {
+  color: white;
+  background-color: #121418;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.row {
+  display: flex;
+  padding: 20px;
+}
+.list-unstyled {
+  margin-left: 20px;
+}
+.list-unstyled li {
+  list-style-type: none;
+}
+.col h4 {
+  padding: 20px;
+}
+.col {
+  margin: 30px;
+}
+
+.list-icon {
+  display: flex;
+  margin-left: 20px;
+}
+.list-icon li {
+  list-style-type: none;
+  padding: 4px;
+}
+.list-icon li a {
+  color: white;
+}

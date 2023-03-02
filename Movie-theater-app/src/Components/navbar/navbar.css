@@ -1,0 +1,73 @@
+/*      NavBar    CSS  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.logo {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+}
+.dashboard-logo {
+  width: 25px;
+  display: flex;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link_text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #121418;
+  color: #fff;
+  height: 100hv;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 40px 15px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.active {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,61 @@
+.ratings {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 95%;
+    border-left: 2px solid gray;
+    border-radius: 10px;
+}
+
+.titulli {
+    margin-left: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+
+.emri {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.komenti {
+    padding: 10px;
+    background-color: grey;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.data{
+    margin-right: 10px;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    text-align: end;
+}
+
+.label {
+    
+    font-size: 14px;
+}
+.emri span {
+    font-size: 23px;
+}
+
+.koment {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.em {
+    width: 100px;
+}
+
+.css-1c99szj-MuiRating-icon {
+    color: white !important;
+}

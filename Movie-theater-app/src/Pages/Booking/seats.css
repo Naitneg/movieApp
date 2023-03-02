@@ -1,0 +1,88 @@
+.seats {
+  display: flex;
+  align-items: flex-start;
+  gap: 15rem;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.seat-selector {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.seat-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.seat {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  margin: 3px;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.seat:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  background-color: #f00;
+  color: #fff;
+}
+
+.vip {
+  background-color: #00f;
+  color: #fff;
+}
+.screen {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.screen {
+  width: 28rem;
+  height: 30%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+.vip-selected {
+  background-color: #800080;
+  color: #fff;
+}
+.seatcounts {
+  font-size: 2rem;
+  color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+    .seats {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }

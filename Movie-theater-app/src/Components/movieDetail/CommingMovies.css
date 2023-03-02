@@ -1,0 +1,58 @@
+.text {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: orange;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 3rem;
+}
+
+.kontainer {
+  width: 95%;
+  border: 2px solid rgb(126, 85, 9);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.comingmovies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-template-rows: 1fr;
+}
+
+.bord {
+  border: 2px solid orange !important;
+  cursor: pointer;
+}
+
+.movietitle {
+  color: white;
+}
+
+.com {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.com h2 {
+  color: rgb(243, 197, 141);
+}
+
+.com button {
+  background: orangered;
+  transition: 0.5s;
+}
+.com button:hover {
+  background: orange;
+}
+
+@media only screen and (max-width: 1865px) {
+  .banner {
+    width: 170px;
+    height: 300px;
+  }
+}

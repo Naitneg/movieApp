@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+}
+
+.home7{
+  overflow-x: hidden;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
+
+.homepage {
+  height: 80vh;
+  background: linear-gradient(24deg, rgba(0,0,0,0.8267682072829132) 23%, rgba(253,187,45,0.008841036414565795) 41%),url("../img/blackadam.jpg") ;
+  background-size: cover;
+}
+
+.homepage-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 4rem;
+  padding-top: 25%;
+  padding-left: 30px;
+}
+
+.homepage-tekst {
+  color: rgba(255, 255, 255, 0.7);
+  width: 42%;
+  padding-left: 30px;
+  font-size: 1.2rem;
+}
+
+.homepage-buton {
+  background-color: rgb(202, 135, 12);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.homepage-buton:hover {
+  background-color: rgb(251, 197, 98);
+}
+
+.movie-list-container {
+  padding: 0 20px;
+}
+
+.movie-list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  transform: translateX(0);
+  transition: all 1s ease-in-out;
+}
+
+.movie-list-item {
+  margin-right: 30px;
+  position: relative;
+}
+
+.movie-list-item-img {
+  transition: 0.3s;
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.movie-list-title {
+  color: rgb(215, 143, 9);
+  font-size: 2.5rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.galeria {
+  transform: rotate(90deg);
+  margin-left: 49%;
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+
+.galeria:hover {
+  height: 34px;
+  width: 34px;
+}

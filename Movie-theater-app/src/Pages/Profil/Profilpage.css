@@ -1,0 +1,52 @@
+.main1 {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper1 {
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 25px;
+  padding: 30px;
+  padding-bottom: 20px;
+  background: #ff9933;
+}
+.wrapper1 p {
+  margin-bottom: 23px;
+}
+.personal {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-container1 {
+  display: flex;
+  width: 100%;
+}
+
+.form-container1 {
+  text-align: left;
+}
+.img {
+  margin-right: 50px;
+}
+.form-container1 img {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.credentials {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.cred {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.shkrimi {
+  margin: 0 20px;
+}

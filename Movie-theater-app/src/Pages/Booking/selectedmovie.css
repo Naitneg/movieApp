@@ -1,0 +1,98 @@
+.movie1 {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+.pay {
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.pay button {
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+
+.pay button:hover {
+  background: rgba(25, 145, 192, 0.73);
+}
+.pay span {
+  margin-left: 0px;
+}
+.pay li {
+  display: none;
+}
+.selects {
+  display: flex;
+  gap: 30px;
+}
+.tickets {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.tickets label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tickets select {
+  border-radius: 5px;
+  padding: 3px 30px;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.64);
+  padding: 10px;
+  margin-top: 20px;
+  width: 520px;
+  position: absolute;
+  top: 55%;
+  left: 13%;
+}
+
+.feedback-form label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.feedback-form textarea {
+  height: 100px;
+}
+
+.feedback-form button[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+.feedback-form input:disabled {
+  color: rgb(201, 201, 201);
+}

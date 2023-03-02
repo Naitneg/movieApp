@@ -1,0 +1,111 @@
+.header-input {
+  padding: 5px;
+  width: 500px;
+  height: 40px;
+  font-size: large;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  background-color: #1e1e1e;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  border-image: linear-gradient(73deg, #f6b73c 25%, #4d9f0c 85%) 30;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.header-h1 {
+  color: #ff9933;
+  font-size: 2rem;
+  margin-right: 200px;
+}
+.header-right-SignUp {
+  padding: 10px;
+}
+.header-right-SignUp h3 {
+  color: #ff9933;
+}
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-right-login {
+  padding: 10px;
+  background-color: #ff9933;
+  border-radius: 50px;
+  width: 70px;
+  text-align: center;
+  margin: 10px 0;
+}
+.header-right-login h3 {
+  color: #000000;
+  transition: 0.5s;
+}
+.header-right-login h3:hover {
+  color: white;
+}
+
+.header_mid {
+  width: 50%;
+}
+
+.useri {
+  display: flex;
+  align-items: center;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #ff9933;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 45px;
+  min-width: 0px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #ba6918;
+  color: #ffffff;
+}
+
+.name {
+  border: 1px solid orange;
+  border-radius: 50px;
+  width: 80px;
+  padding: 10px;
+  margin: 0 20px;
+  color: orange;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.name:hover {
+  color: white;
+  background: orange;
+}

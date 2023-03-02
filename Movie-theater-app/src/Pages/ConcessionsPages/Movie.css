@@ -1,0 +1,47 @@
+.banner {
+  position: relative;
+  width: 220px;
+  height: 350px;
+  object-fit: container;
+  position: relative;
+  outline: none;
+  border: none;
+  margin: 10px;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+.movie_title {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.movie-button {
+  border-radius: 10px;
+  padding: 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #ff9933;
+  color: white;
+  outline: none;
+  border: none;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.movie-button:hover {
+  transform: scale(1.1);
+  background: #d67819;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+.banner:hover .middle {
+  opacity: 1;
+}
+

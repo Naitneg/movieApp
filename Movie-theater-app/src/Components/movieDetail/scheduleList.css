@@ -1,0 +1,128 @@
+.schedule {
+  margin-left: 30px;
+}
+.movie-schedule {
+  width: 72%;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  min-height: 100px;
+}
+
+.movie-schedule-form-select {
+  position: relative;
+}
+.movie-schedule-form-select select {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #121418;
+  border: 1px solid #121418;
+  padding: 0 10px;
+  font-size: 15px;
+  color: white;
+  appearance: none;
+}
+.select-icon {
+  margin-left: -40px;
+  color: #ff8e3c;
+}
+.description {
+  width: 70%;
+}
+
+.show {
+  border: 1px solid gray;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.084);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.show-container {
+  margin-top: 20px;
+}
+
+.show-movie {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.show-movie-detail {
+  margin-left: 20px;
+  width: 45%;
+}
+.show-movie-detail h3 {
+  font-size: 16px;
+
+  color: gray;
+}
+.days {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 4%;
+  margin-top: 10px;
+  gap: 23px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 97%;
+  color:#ff8e3c;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.time-hour-all {
+  background: rgba(0, 0, 0, 0.7);
+  height: 220px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.time-hour p {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+.show-movie-detail p {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.show-movie img {
+  width: 150px;
+  height: 230px;
+}
+
+@media (max-width: 768px) {
+  .movie-schedule-form {
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .movie-schedule-form-select select {
+    width: 250px;
+  }
+  .select-icon {
+    margin-left: -30px;
+    color: #ff8e3c;
+  }
+}
+
+@media (max-width: 576px) {
+  .movie-schedule-form-select select {
+    width: 150px;
+  }
+}

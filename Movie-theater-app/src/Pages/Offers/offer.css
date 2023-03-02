@@ -1,0 +1,45 @@
+.offers {
+  color: white;
+}
+
+.oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.oferta p {
+  color: white;
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+  
+}
+.oferta h2{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.oferta img {
+    width: 700px;
+    height: auto;
+    padding-bottom: 30px;
+}
+.ofertat {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.unsplash.com/photo-1624948456697-31d0ab8bf969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlnaHQlMjBibHVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin-top: 5%;
+}
+.ofertateksti {
+    padding-left: 30px;
+    width: 30%;
+}
+.ofertateksti button{
+    background: red;
+}

@@ -1,0 +1,25 @@
+.seat-legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+.available .color-box {
+  background-color: rgb(255, 255, 255);
+}
+
+.sold .color-box {
+  background-color: #f00;
+}
+.vipsold .color-box {
+  background-color: purple;
+}

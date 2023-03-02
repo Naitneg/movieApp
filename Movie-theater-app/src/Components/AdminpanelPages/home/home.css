@@ -1,0 +1,27 @@
+.home1 {
+  display: flex;
+  background: white !important;
+}
+.homeContainer1 {
+  flex: 6 !important;
+}
+.widgets1,
+.charts1 {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.charts1 {
+  padding: 5px 20px 5px 100px;
+}
+
+.listContainer1 {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+.listTitle1 {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 15px;
+}
